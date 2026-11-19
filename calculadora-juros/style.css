@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+body {
+  background: #f4f6f9;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+.calculator {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+}
+.icon-box {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: #212529;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.form-control, .form-select, .input-group-text { border-width: 2px; }
+.is-invalid { border-width: 2px; }
+.table { font-size: .9rem; }
